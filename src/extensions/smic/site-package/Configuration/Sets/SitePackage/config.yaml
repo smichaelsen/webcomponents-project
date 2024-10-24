@@ -1,0 +1,4 @@
+name: smic/site-package
+label: "Webcomponents Showcase Site package"
+dependencies:
+  - smic/components

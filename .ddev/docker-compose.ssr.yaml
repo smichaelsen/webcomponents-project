@@ -1,0 +1,15 @@
+services:
+  ssr:
+    container_name: ddev-${DDEV_SITENAME}-ssr
+    build:
+      context: ../ssr
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3000"
+    networks:
+      - default
+    volumes:
+      - ../ssr:/app
+  web:
+    links:
+      - ssr:$DDEV_HOSTNAME

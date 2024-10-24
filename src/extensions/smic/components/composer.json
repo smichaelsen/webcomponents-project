@@ -1,0 +1,15 @@
+{
+    "name": "smic/components",
+    "description": "components",
+    "type": "typo3-cms-extension",
+    "autoload": {
+        "psr-4": {
+            "Smic\\Components\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "components"
+        }
+    }
+}

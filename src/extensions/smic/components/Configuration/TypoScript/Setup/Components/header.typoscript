@@ -1,0 +1,2 @@
+tt_content.header = WEBCOMPONENT
+tt_content.header.component = Smic\Components\Components\Header
