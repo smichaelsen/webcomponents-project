@@ -1,2 +1,3 @@
 tt_content.header = WEBCOMPONENT
 tt_content.header.component = Smic\Components\Components\Header
+tt_content.header.enableSsr = 1

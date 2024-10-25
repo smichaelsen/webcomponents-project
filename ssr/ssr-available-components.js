@@ -1,1 +1,1 @@
-import 'frontend/src/components/my-header.js';
+import './node_modules/frontend/src/components/my-header.js';

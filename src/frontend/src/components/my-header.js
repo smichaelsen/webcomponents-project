@@ -40,4 +40,4 @@ export class MyHeader extends LitElement {
     };
 }
 
-window.customElements.define('my-header', MyHeader);
+customElements.define('my-header', MyHeader);

@@ -20,7 +20,7 @@ class Header implements ComponentInterface
 
     public function provide(InputData $inputData): ComponentRenderingData
     {
-        $this->manifestService->addFromManifest('src/entrypoints/main.js');
+//        $this->manifestService->addFromManifest('src/entrypoints/main.js');
 
         $componentRenderingData = new ComponentRenderingData();
         $componentRenderingData->setTagName('my-header');
